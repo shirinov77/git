@@ -1,8 +1,8 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
 
-const start = new Date("2022-01-01");
-const end = new Date("2022-12-31");
+const start = new Date("2024-01-01");
+const end = new Date("2024-12-31");
 
 while (start <= end) {
   if (Math.random() < 0.7) {
@@ -20,4 +20,4 @@ while (start <= end) {
   start.setDate(start.getDate() + Math.floor(Math.random() * 4) + 1);
 }
 
-console.log("✅ 2022 yil uchun random commitlar yaratildi!");
+console.log("✅ 2024 yil uchun random commitlar yaratildi!");
